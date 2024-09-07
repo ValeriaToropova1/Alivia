@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li,ul{
+    list-style: none;
+}
+.header{
+    width: 100%;
+    height: 85px;
+    background-color: #fff;
+}
+.container{
+    max-width: 1370px;
+    margin: 0 auto;
+}
+.header_wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+    width: 560px;
+
+}
+.out__menu{
+    display: flex;
+    justify-content: space-between;
+    
+
+} 
+.menu__link{
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.login{
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    
+}
+.trial__button{
+    font-family: "Lato";
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 50px;
+    background-color: #01996D;
+    border-radius: 4px;
+    margin-left: 35px;
+}
+
+/* block-image */
+
+.block__image{
+    background: url(./page/BG.png);
+    height: 750px;
+}
+.block__texts{
+    padding-top: 200px;
+    width: 500px;
+}
+.block__texts_title{
+    font-family: Georgia;
+font-size: 65px;
+font-weight: 700;
+line-height: 74px;
+letter-spacing: 0em;
+text-align: left;
+ color: #01996D;
+}
+.block__texts__btn{
+    height: 60px;
+    width: 190px;
+}
+.block__texts__parage{
+    font-size: 24px;
+    width: 470px;
+    margin: 40px 0px;
+}
+
+/* text block */
+
+.text__block__title{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+.title{
+    font-size: 45px;
+    width: 540px;
+}
+.text__block__parag{
+    width: 600px;
+    margin-top: 40px;
+    font-size: 17px;
+}
+
+
+/* cards */
+
+.block__cards{
+    padding-top: 150px;
+    padding-left: 100px;
+}
+.cards {
+    display: flex;
+}
+
+.card {
+       width: 441px;
+     height: 420px;
+}
+.card__title{
+    margin-left: 100px;
+}
+.cards__text{
+    width: 330px;
+    font-size: 20px;
+    margin: 35px 0px  20px;
+}
+.card__img1{
+    height: 392px;
+}
+
+.card__img2{
+    height: 420px;
+}
+.card__img3{
+    height: 405px;
+}
+.card__title2{
+     margin-left: 50px;
+}
+
+/* BLOCK content */
+
+.block__video{
+    margin-top: 400px;
+    background-color: #245852;
+    padding: 200px 0px 100px;
+}
+.play_stop{
+    position: absolute;
+    margin-right: 150px;
+}
+.block__content{
+    display: flex;
+    justify-content: space-between;
+}
+.content__image img{
+    width: 700px;
+}
+.content__text{
+    padding-top: 80px;
+    
+}
+.content__text h1 {
+    font-size: 45px;
+    color: #FFFFFF;
+}
+.content__text p {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 30px 0px ;
+}
+.play_stop{
+    margin-left: 1000px;
+    margin-top: 150px;
+}
+/* penultimate */
+.penultimate__block{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    position: relative;
+
+}
+.penultimate {
+    display: flex;
+}
+
+.card__penultimate{
+    position: absolute;
+   top: 320px;
+   left: 250px;
+}
+.penultimate_image{
+    margin-right: 100px;
+}
+
+.penultimate__text h1{
+    color: #01996D;
+    margin: 30px 0px;
+    font-size: 40px;
+}
+.penultimate__text p {
+    color: #01996D;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.acc{
+    margin-top: 300px;
+    position: absolute;
+    display: block;
+    background-color: whitesmoke;
+    border: 10px solid whitesmoke;
+    width: 300px;
+    height: 300px;
+}
+hr{
+    width: 110px;
+    margin-left: 95px;
+    margin-top: 10px;
+}
+.acc_text1{
+    font-size: 15px;
+    text-align: center;
+}
+.crug{
+    margin-top: 16px;
+    margin-left: 120px;
+}
+.name_crug{
+    width: 41px;
+    height: 19px;
+    margin-left: 124px;
+    margin-top: 5px;
+}
+.acc_text2{
+    margin-top: 10px;
+}
+.qeq{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.uli{
+    width: 336px;
+    height: 420px;
+}
+.uli_link{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+.uli_link1{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+/* last */
+.last__block{
+    background-color: #245852;
+    padding: 90px 0px;
+}
+.last__text{
+   color: #FFFFFF;
+}
+.last__title{
+    margin-bottom: 50px;
+}
